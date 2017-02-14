@@ -137,6 +137,13 @@ All packaging actions are handled by [electron-builder](https://github.com/elect
 
 **Note:** There are various icons and bitmap files in `resources` directory. Those are used in installers and intended to be replaced by your own graphics.
 
+# Sqlite3 database
+
+This project contails sqlite3 for database purpose.
+Some scripts has been modified in outer package.json to install sqlite3 along with node-pre-gyp tool which is needed to build whole application specfic to platform.
+Installation of sqlite3 requires PYTHON(lesser than 3.0 version) and full installation of Visual Studio any express version.
+In my case this works fine https://www.microsoft.com/en-in/download/confirmation.aspx?id=44914
+
 # License
 
 Released under the MIT license.
